@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.author                 = "Juan A. Vico"
   s.platforms              = { :ios => "11.0" }
   s.cocoapods_version      = ">= 1.10.1"
-  s.platform       ={ :ios => "11.0" }
 
   s.source_files   = 'ios/**/*.{h,m}'
 
