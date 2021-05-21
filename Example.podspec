@@ -13,18 +13,15 @@ Pod::Spec.new do |s|
                              DESC
   s.homepage       = "https://github.com/juanvico/Example"
   s.source         = { :git => 'https://github.com/juanvico/Example.git', :tag => s.version }
-  
-  # s.requires_arc   = true
+ 
   s.license        = "MIT"
   s.author                 = "Juan A. Vico"
   s.platforms              = { :ios => "11.0" }
   s.cocoapods_version      = ">= 1.10.1"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
-
-  # s.platform       ={ :ios => "11.0" }
-
   s.source_files   = 'ios/**/*.{h,m}'
   s.exclude_files = "ios/Example/*.plist"
+  s.dependency 'React-Core'
 
 end
