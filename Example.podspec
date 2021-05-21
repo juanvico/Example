@@ -14,11 +14,12 @@ Pod::Spec.new do |s|
   s.homepage       = "https://github.com/juanvico/Example"
   s.source         = { :git => 'https://github.com/juanvico/Example.git', :tag => s.version }
   
-  s.requires_arc   = true
+  # s.requires_arc   = true
   s.license        = "MIT"
   s.author                 = "Juan A. Vico"
   s.platforms              = { :ios => "11.0" }
   s.cocoapods_version      = ">= 1.10.1"
+  # s.platform       ={ :ios => "11.0" }
 
   s.source_files   = 'ios/**/*.{h,m}'
 
